@@ -1,0 +1,290 @@
+{
+  "source": "backend/seed.py -> backend/nexaflow.db",
+  "counts": {
+    "products": 29,
+    "customers": 1500,
+    "orders": 3478,
+    "order_items": 6093,
+    "settings": 6,
+    "campaigns": 2,
+    "messages": 12
+  },
+  "products": [
+    {
+      "sku": "01-DS-CRM",
+      "name": "Summer Dress — Coral",
+      "category": "Apparel",
+      "price": 2499.0,
+      "current_stock": 3,
+      "reorder_point": 13
+    },
+    {
+      "sku": "01-DS-NVY",
+      "name": "Summer Dress — Navy",
+      "category": "Apparel",
+      "price": 2499.0,
+      "current_stock": 77,
+      "reorder_point": 11
+    },
+    {
+      "sku": "04-TEE-BLK",
+      "name": "Classic Black Tee",
+      "category": "Apparel",
+      "price": 599.0,
+      "current_stock": 6,
+      "reorder_point": 36
+    },
+    {
+      "sku": "04-TEE-WHT",
+      "name": "White Cotton Tee",
+      "category": "Apparel",
+      "price": 599.0,
+      "current_stock": 52,
+      "reorder_point": 28
+    },
+    {
+      "sku": "02-CRD-LIN",
+      "name": "Linen Co-ord Set",
+      "category": "Apparel",
+      "price": 3499.0,
+      "current_stock": 40,
+      "reorder_point": 10
+    },
+    {
+      "sku": "05-JKT-DNM",
+      "name": "Denim Jacket",
+      "category": "Apparel",
+      "price": 4999.0,
+      "current_stock": 17,
+      "reorder_point": 10
+    },
+    {
+      "sku": "03-SKT-FLR",
+      "name": "Floral Midi Skirt",
+      "category": "Apparel",
+      "price": 1899.0,
+      "current_stock": 22,
+      "reorder_point": 12
+    },
+    {
+      "sku": "06-JOG-GRY",
+      "name": "Casual Joggers",
+      "category": "Apparel",
+      "price": 1299.0,
+      "current_stock": 66,
+      "reorder_point": 19
+    },
+    {
+      "sku": "07-SAR-SLK",
+      "name": "Silk Saree",
+      "category": "Apparel",
+      "price": 8999.0,
+      "current_stock": 41,
+      "reorder_point": 10
+    },
+    {
+      "sku": "08-KRT-CTN",
+      "name": "Cotton Kurta",
+      "category": "Apparel",
+      "price": 1799.0,
+      "current_stock": 65,
+      "reorder_point": 16
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Rajesh Kumar",
+      "phone": "+91 9126855092",
+      "created_at": "2025-07-19 21:16:35.935403"
+    },
+    {
+      "id": 2,
+      "name": "Saanvi Shah",
+      "phone": "+91 9249827706",
+      "created_at": "2026-01-12 21:16:35.935620"
+    },
+    {
+      "id": 3,
+      "name": "Vikram Malhotra",
+      "phone": "+91 9193349856",
+      "created_at": "2025-02-18 21:16:35.935676"
+    },
+    {
+      "id": 4,
+      "name": "Aditya Sharma",
+      "phone": "+91 9200604502",
+      "created_at": "2025-09-15 21:16:35.935720"
+    },
+    {
+      "id": 5,
+      "name": "Priya Agarwal",
+      "phone": "+91 9746412689",
+      "created_at": "2026-03-30 21:16:35.935761"
+    },
+    {
+      "id": 6,
+      "name": "Navya Reddy",
+      "phone": "+91 9868820204",
+      "created_at": "2025-02-21 21:16:35.935800"
+    },
+    {
+      "id": 7,
+      "name": "Priya Chopra",
+      "phone": "+91 9732719211",
+      "created_at": "2025-07-16 21:16:35.935838"
+    },
+    {
+      "id": 8,
+      "name": "Aarav Gupta",
+      "phone": "+91 9849621470",
+      "created_at": "2025-02-18 21:16:35.935873"
+    },
+    {
+      "id": 9,
+      "name": "Aryan Nair",
+      "phone": "+91 9266944844",
+      "created_at": "2025-09-18 21:16:35.935918"
+    },
+    {
+      "id": 10,
+      "name": "Gaurav Desai",
+      "phone": "+91 9209747451",
+      "created_at": "2026-01-22 21:16:35.935955"
+    }
+  ],
+  "settings": [
+    {
+      "key": "auto_approve",
+      "value": "false"
+    },
+    {
+      "key": "critical_threshold_days",
+      "value": "3"
+    },
+    {
+      "key": "lead_time_days",
+      "value": "3"
+    },
+    {
+      "key": "message_tone",
+      "value": "friendly"
+    },
+    {
+      "key": "reorder_threshold_days",
+      "value": "7"
+    },
+    {
+      "key": "safety_stock_percent",
+      "value": "20"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "Summer Dress — Coral restock",
+      "status": "sent",
+      "total_recipients": 12,
+      "sent_count": 12,
+      "clicked_count": 4,
+      "converted_count": 2,
+      "revenue": 9996.0
+    },
+    {
+      "id": 2,
+      "name": "New arrivals audience",
+      "status": "review",
+      "total_recipients": 8,
+      "sent_count": 0,
+      "clicked_count": 0,
+      "converted_count": 0,
+      "revenue": 0.0
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "campaign_id": 1,
+      "customer_id": 1,
+      "status": "clicked",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 2,
+      "campaign_id": 1,
+      "customer_id": 2,
+      "status": "clicked",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 3,
+      "campaign_id": 1,
+      "customer_id": 3,
+      "status": "clicked",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 4,
+      "campaign_id": 1,
+      "customer_id": 4,
+      "status": "clicked",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 5,
+      "campaign_id": 1,
+      "customer_id": 5,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 6,
+      "campaign_id": 1,
+      "customer_id": 6,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 7,
+      "campaign_id": 1,
+      "customer_id": 7,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 8,
+      "campaign_id": 1,
+      "customer_id": 8,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 9,
+      "campaign_id": 1,
+      "customer_id": 9,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 10,
+      "campaign_id": 1,
+      "customer_id": 10,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 11,
+      "campaign_id": 1,
+      "customer_id": 11,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    },
+    {
+      "id": 12,
+      "campaign_id": 1,
+      "customer_id": 12,
+      "status": "delivered",
+      "match_reason": "Purchased this product or category recently"
+    }
+  ]
+}

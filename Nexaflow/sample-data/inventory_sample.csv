@@ -1,0 +1,6 @@
+sku,name,category,price,current_stock,daily_velocity,reorder_point
+01-DS-CRM,Summer Dress — Coral,Apparel,2499,3,1.5,13
+04-TEE-BLK,Classic Black Tee,Apparel,599,6,1.4,36
+11-FRG-SIG,Signature Scent 50ml,Fragrance,3999,9,1.7,10
+21-BAG-LTH,Leather Handbag,Accessories,5999,22,0.5,10
+31-HOM-CND,Scented Candle Set,Home,1799,68,0.8,20
